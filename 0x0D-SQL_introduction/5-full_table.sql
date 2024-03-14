@@ -1,3 +1,3 @@
--- List all rows in the table
--- Execute: cat 6-list_values.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-SELECT * FROM first_table;
+-- Show the create table statement
+-- Execute: cat 5-full_table.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+SHOW CREATE TABLE first_table;
